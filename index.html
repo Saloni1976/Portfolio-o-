@@ -14,7 +14,7 @@
 <!-- ============ NAVIGATION ============ -->
 <header>
   <div class="nav">
-    <a class="brand" href="#home">saloni<span>.</span></a>
+    <a class="brand" href="#home">Saloni Ghosh<span>.</span></a>
     <ul id="menu">
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -39,8 +39,8 @@
     </div>
     <div class="photo">
       <div class="frame">
-        <!-- 👉 YOUR PHOTO: save it as images/photo.jpg -->
-        <img src="images/photo.jpg" alt="Saloni" data-missing="Add your photo<br>images/photo.jpg">
+        
+        <img src="Images\portfolio_img.jpg" alt="Saloni" data-missing="Add your photo<br>images/photo.jpg">
       </div>
     </div>
   </div>
@@ -52,17 +52,17 @@
     <span class="label">About me</span>
     <h2>A little bit about me</h2>
 
-    <!-- 👉 Edit the numbers: data-count is how high it counts -->
+    
     <div class="stats">
       <div><b data-count="3">0</b><span>Year of B.Tech</span></div>
       <div><b data-count="3">0</b><span>Projects built</span></div>
-      <div><b data-count="3">0</b><span>Certificates</span></div>
-      <div><b data-count="1">0</b><span>Hackathons</span></div>
+      <div><b data-count="6">0</b><span>Certificates</span></div>
+      <div><b data-count="2">0</b><span>Hackathons</span></div>
     </div>
 
     <div class="about">
       <div>
-        <!-- 👉 Rewrite these in your own words -->
+        
         <p>I'm a third-year B.Tech student in Information Technology at MIT Academy of Engineering, Pune. I got into tech because I enjoy turning an idea into something people can actually click on and use.</p>
         <p>My interests are spread across AI/ML, web development, data analytics and design. I learn best by building, so most of what I know comes from projects, hackathons and late-night experiments.</p>
         <p>Right now I'm looking to grow through internships, collaborations and projects that make me think harder.</p>
@@ -86,14 +86,14 @@
   <div class="wrap reveal">
     <span class="label">Skills</span>
     <h2>What I work with</h2>
-    <p class="lead">The dots show how comfortable I am (5 = very). Change <code>data-l</code> to edit a level, and add or remove lines freely.</p>
+    <p class="lead">The dots show how comfortable I am (5 = very).</p>
     <div class="skills">
       <div class="skillbox"><div class="ico">🌐</div><h3>Web</h3>
-        <ul><li>HTML &amp; CSS<i data-l="5"></i></li><li>JavaScript<i data-l="4"></i></li><li>Node.js &amp; Express<i data-l="4"></i></li><li>Responsive design<i data-l="4"></i></li></ul></div>
+        <ul><li>HTML &amp; CSS<i data-l="4"></i></li><li>JavaScript<i data-l="3"></i></li><li>Node.js &amp; Express<i data-l="3"></i></li><li>Responsive design<i data-l="3"></i></li></ul></div>
       <div class="skillbox"><div class="ico">🤖</div><h3>AI &amp; Data</h3>
         <ul><li>Python<i data-l="4"></i></li><li>Machine learning<i data-l="3"></i></li><li>Data analysis<i data-l="4"></i></li><li>Visualization<i data-l="4"></i></li></ul></div>
       <div class="skillbox"><div class="ico">🗄️</div><h3>Backend</h3>
-        <ul><li>SQL / Oracle<i data-l="4"></i></li><li>REST APIs<i data-l="4"></i></li><li>Database design<i data-l="3"></i></li><li>Git &amp; GitHub<i data-l="4"></i></li></ul></div>
+        <ul><li>SQL / Oracle<i data-l="4"></i></li><li>REST APIs<i data-l="4"></i></li><li>Database design<i data-l="3"></i></li><li>Git &amp; GitHub<i data-l="3"></i></li></ul></div>
       <div class="skillbox"><div class="ico">🎨</div><h3>Design</h3>
         <ul><li>Canva<i data-l="5"></i></li><li>Figma<i data-l="3"></i></li><li>UI layout<i data-l="4"></i></li><li>Presentations<i data-l="5"></i></li></ul></div>
     </div>
@@ -105,7 +105,7 @@
   <div class="wrap reveal">
     <span class="label">Projects</span>
     <h2>Things I've built</h2>
-    <p class="lead">Filter by type. To add a project, copy one whole &lt;article&gt; block, paste it below the last one, and edit it. Put its categories in <code>data-cat</code>.</p>
+    <p class="lead">A mix of web and desktop apps I've built during my B.Tech. Use the filters to browse, and the buttons to watch a demo or read the code.</p>
 
     <div class="filters">
       <button class="chip active" data-f="all">All</button>
@@ -116,37 +116,44 @@
 
     <div class="projects">
       <!-- ===== PROJECT 1 ===== -->
-      <article class="project" data-cat="ai web">
-        <div class="shot"><img src="images/project1.jpg" alt="Project 1" data-missing="Project screenshot<br>images/project1.jpg"></div>
-        <div class="body">
-          <h3>Email Threat Detection Platform</h3>
-          <p>Write 2–3 lines here: what the project does, the problem it solves, and what your part was.</p>
-          <div class="tags"><span>Python</span><span>AI/ML</span><span>Web</span></div>
-          <div class="links"><a class="btn small" href="#" target="_blank" rel="noopener">Live demo</a><a class="btn small" href="#" target="_blank" rel="noopener">GitHub</a></div>
-        </div>
-      </article>
+ <article class="project" data-cat="web ai">
+  <div class="shot"><img src="Images\TCS.jpeg" alt="Tuition Centre System" data-missing="Project screenshot<br>images/project1.jpg"></div>
+  <div class="body">
+    <h3>Tuition Centre Management System</h3>
+    <p>A full-stack system for running a tuition centre: students and enrolment, batches, courses, attendance, exams and results, and fee management. Built with a Node.js and Express backend and an Oracle database.</p>
+    <div class="tags"><span>HTML &amp; CSS</span><span>JavaScript</span><span>Node.js</span><span>Express</span><span>Oracle</span><span>Python</span></div>
+    <div class="links">
+      <a class="btn small" href="PASTE-YOUR-VIDEO-LINK" target="_blank" rel="noopener">Demo video</a>
+      <a class="btn small" href="https://github.com/Vedantsd/Tuition-Center-System" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</article>
 
       <!-- ===== PROJECT 2 ===== -->
-      <article class="project" data-cat="web">
-        <div class="shot"><img src="images/project2.jpg" alt="Project 2" data-missing="Project screenshot<br>images/project2.jpg"></div>
-        <div class="body">
-          <h3>Fee Management System</h3>
-          <p>Write 2–3 lines here: what the project does, the problem it solves, and what your part was.</p>
-          <div class="tags"><span>Node.js</span><span>Express</span><span>Oracle</span></div>
-          <div class="links"><a class="btn small" href="#" target="_blank" rel="noopener">Live demo</a><a class="btn small" href="#" target="_blank" rel="noopener">GitHub</a></div>
-        </div>
-      </article>
+<article class="project" data-cat="data">
+  <div class="shot"><img src="Images\RMS.jpg" alt="Restaurant Management System" data-missing="Project screenshot<br>images/project2.jpg"></div>
+  <div class="body">
+    <h3>Restaurant Management System</h3>
+    <p>A desktop app for running a restaurant, built in Java Swing with a MySQL database. Staff log in to manage the menu, take orders and view bills.</p>
+    <div class="tags"><span>Java</span><span>Swing</span><span>MySQL</span></div>
+    <div class="links">
+      <a class="btn small" href="https://drive.google.com/file/d/1iUt8Gva_aiVSs-HGS1hBsTs_lVBwpM6J/view?usp=sharing" target="_blank" rel="noopener">Demo video</a>
+      <a class="btn small" href="https://github.com/Saloni1976/RestaurantManagementSystem" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</article>
 
       <!-- ===== PROJECT 3 ===== -->
-      <article class="project" data-cat="data">
-        <div class="shot"><img src="images/project3.jpg" alt="Project 3" data-missing="Project screenshot<br>images/project3.jpg"></div>
-        <div class="body">
-          <h3>Your Project Name</h3>
-          <p>Write 2–3 lines here: what the project does, the problem it solves, and what your part was.</p>
-          <div class="tags"><span>Tech</span><span>Tech</span></div>
-          <div class="links"><a class="btn small" href="#" target="_blank" rel="noopener">GitHub</a></div>
-        </div>
-      </article>
+<article class="project" data-cat="data">
+  <div class="shot"><img src="Images\web_page_scraper.jpg" alt="Web Page Scraper" data-missing="Project screenshot<br>images/project3.jpg"></div>
+  <div class="body">
+    <h3>Web Page Scraper</h3>
+    <p>A regex-based web page scraper built as a Theory of Computation mini project. It uses regular expressions to pull data out of web pages, with a simple Java Swing interface.</p>
+    <div class="tags"><span>Java</span><span>Swing</span><span>Regex</span></div>
+    <div class="links"><a class="btn small" href="https://github.com/Saloni1976/Web-Page-Scrapper" target="_blank" rel="noopener">GitHub</a></div>
+  </div>
+</article>
+
     </div>
   </div>
 </section>
@@ -160,19 +167,39 @@
     <div class="certs">
       <!-- ===== CERTIFICATE 1 (copy this block to add more) ===== -->
       <figure class="cert">
-        <div class="img"><img src="images/cert1.jpg" alt="Certificate 1" data-missing="Certificate image<br>images/cert1.jpg"></div>
-        <figcaption><strong>Certificate title</strong><span>Issuer · Year</span></figcaption>
-      </figure>
-      <figure class="cert">
-        <div class="img"><img src="images/cert2.jpg" alt="Certificate 2" data-missing="Certificate image<br>images/cert2.jpg"></div>
-        <figcaption><strong>Certificate title</strong><span>Issuer · Year</span></figcaption>
-      </figure>
-      <figure class="cert">
-        <div class="img"><img src="images/cert3.jpg" alt="Certificate 3" data-missing="Certificate image<br>images/cert3.jpg"></div>
-        <figcaption><strong>Certificate title</strong><span>Issuer · Year</span></figcaption>
+  <div class="img"><img src="Images\ReactJS.jpg" alt="ReactJS certificate" data-missing="Certificate image<br>images/cert1.jpg"></div>
+  <figcaption><strong>ReactJS</strong><span>Infosys Springboard · Aug 2026</span></figcaption>
+</figure>
+
+
+<figure class="cert">
+  <div class="img"><img src="Images\Employability_Skills_JobReady.jpg" alt="Employability Skills JobReady certificate" data-missing="Certificate image<br>images/cert3.jpg"></div>
+  <figcaption><strong>Employability Skills – JobReady</strong><span>Wadhwani Foundation · Sep 2025 · 113 hours</span></figcaption>
+</figure>
+
+<figure class="cert">
+  <div class="img"><img src="Images\JavaScript.jpg" alt="JavaScript certificate" data-missing="Certificate image<br>images/cert2.jpg"></div>
+  <figcaption><strong>JavaScript</strong><span>Infosys Springboard · Aug 2026</span></figcaption>
+</figure>
+
+<figure class="cert">
+  <div class="img"><img src="Images\Python_Essentials_1.jpg" alt="Python Essentials 1 certificate" data-missing="Certificate image<br>images/cert4.jpg"></div>
+  <figcaption><strong>Python Essentials 1</strong><span>Cisco Networking Academy · May 2025</span></figcaption>
+</figure>
+
+<figure class="cert">
+  <div class="img"><img src="Images\AI_Fluency_Framework_Foundations.jpg" alt="AI Fluency certificate" data-missing="Certificate image<br>images/cert6.jpg"></div>
+  <figcaption><strong>AI Fluency: Framework &amp; Foundations</strong><span>Anthropic · Feb 2026</span></figcaption>
+</figure>
+
+<figure class="cert">
+  <div class="img"><img src="Images\Introduction_to_Tableau.jpg" alt="Introduction to Tableau certificate" data-missing="Certificate image<br>images/cert5.jpg"></div>
+  <figcaption><strong>Introduction to Tableau</strong><span>Simplilearn SkillUP · Mar 2025</span></figcaption>
+</figure>
+
       </figure>
     </div>
-  </div>
+  </div>kkk
 </section>
 
 <!-- ============ CONTACT ============ -->
@@ -183,13 +210,13 @@
     <p class="lead">Got an opportunity, a project idea, or just want to say hi? Send me a message.</p>
     <div class="contact">
       <div>
-        <!-- 👉 Replace with your real details -->
-        <div class="item"><small>Email</small><a href="mailto:yourname@email.com">yourname@email.com</a></div>
-        <div class="item"><small>Phone</small><a href="tel:+910000000000">+91 00000 00000</a></div>
+        
+        <div class="item"><small>Email</small><a href="mailto:salonighosh340@gmail.com">salonighosh340@gmail.com</a></div>
+        <div class="item"><small>Phone</small><a href="tel:+918001267706">+91 80012 67706</a></div>
         <div class="item"><small>Location</small><span>Pune, Maharashtra</span></div>
         <div class="item"><small>Elsewhere</small>
-          <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a> &nbsp;/&nbsp;
-          <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></div>
+          <a href="https://www.linkedin.com/in/saloni-ghosh-360a9a377?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a> &nbsp;/&nbsp;
+          <a href="https://github.com/Saloni1976" target="_blank" rel="noopener">GitHub</a></div>
       </div>
       <form id="form">
         <input type="text" id="fname" placeholder="Your name" required>
